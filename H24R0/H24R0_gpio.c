@@ -1,6 +1,6 @@
 /**
   ******************************************************************************
-  * File Name          : H24R0_gpio.c
+  * File Name          : H18R0_gpio.c
   * Description        : This file provides code for the configuration
   *                      of all used GPIO pins.
   ******************************************************************************
