@@ -1,6 +1,6 @@
 /**
   ******************************************************************************
-  * File Name          : H24R0_gpio.h
+  * File Name          : H18R0_gpio.h
   * Description        : This file contains all the functions prototypes for 
   *                      the gpio  
   ******************************************************************************
@@ -38,8 +38,8 @@
 */
 
 /* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef __H24R0_gpio_H
-#define __H24R0_gpio_H
+#ifndef __H18R0_gpio_H
+#define __H18R0_gpio_H
 #ifdef __cplusplus
  extern "C" {
 #endif
@@ -55,7 +55,7 @@ extern void IND_LED_Init(void);
 #ifdef __cplusplus
 }
 #endif
-#endif /*__H24R0_gpio_H */
+#endif /*__H18R0_gpio_H */
 
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

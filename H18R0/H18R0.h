@@ -2,24 +2,24 @@
     BitzOS (BOS) V0.0.0 - Copyright (C) 2017 Hexabitz
     All rights reserved
 		
-    File Name     : H24R0.c
-    Description   : Header file for module H24R0.
+    File Name     : H18R0.c
+    Description   : Header file for module H18R0.
 										Brushed DC motor drive (TI DRV8837DSGT)
 */
 	
 /* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef H24R0_H
-#define H24R0_H
+#ifndef H18R0_H
+#define H18R0_H
 
 /* Includes ------------------------------------------------------------------*/
 #include "BOS.h"
-#include "H24R0_uart.h"	
-#include "H24R0_gpio.h"	
-#include "H24R0_dma.h"			
+#include "H18R0_uart.h"	
+#include "H18R0_gpio.h"	
+#include "H18R0_dma.h"			
 	
 /* Exported definitions -------------------------------------------------------*/
 
-#define	modulePN		_H24R0
+#define	modulePN		_H18R0
 
 /* Port-related definitions */
 #define	NumOfPorts		4
@@ -86,12 +86,12 @@
 /* Module-specific Macros */
 
 
-/* H24R0_Status Type Definition */  
+/* H18R0_Status Type Definition */  
 typedef enum 
 {
-  H24R0_OK = 0,
-	H24R0_ERR_UnknownMessage,
-	H24R0_ERROR = 255
+  H18R0_OK = 0,
+	H18R0_ERR_UnknownMessage,
+	H18R0_ERROR = 255
 } Module_Status;
 
 /* Indicator LED */
@@ -132,6 +132,6 @@ extern void MX_USART5_UART_Init(void);
 
 
 
-#endif /* H24R0_H */
+#endif /* H18R0_H */
 
 /************************ (C) COPYRIGHT HEXABITZ *****END OF FILE****/

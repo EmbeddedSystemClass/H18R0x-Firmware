@@ -1,6 +1,6 @@
 /**
   ******************************************************************************
-  * File Name          : H24R0_dma.h
+  * File Name          : H18R0_dma.h
   * Description        : This file contains all the functions prototypes for 
   *                      the DMA  
   ******************************************************************************
@@ -38,8 +38,8 @@
 */
 
 /* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef __H24R0_dma_H
-#define __H24R0_dma_H
+#ifndef __H18R0_dma_H
+#define __H18R0_dma_H
 
 #ifdef __cplusplus
  extern "C" {
@@ -87,7 +87,7 @@ extern void StopPortPortDMA3(void);
 }
 #endif
 
-#endif /* __H24R0_dma_H */
+#endif /* __H18R0_dma_H */
 
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

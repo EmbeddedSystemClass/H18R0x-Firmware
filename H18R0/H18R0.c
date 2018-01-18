@@ -2,8 +2,8 @@
     BitzOS (BOS) V0.0.0 - Copyright (C) 2017 Hexabitz
     All rights reserved
 
-    File Name     : H24R0.c
-    Description   : Source code for module H24R0.
+    File Name     : H18R0.c
+    Description   : Source code for module H18R0.
 										Brushed DC motor drive (TI DRV8837DSGT)
 		
 		Required MCU resources : 
@@ -41,7 +41,7 @@ UART_HandleTypeDef huart5;
    ----------------------------------------------------------------------- 
 */
 
-/* --- H24R0 module initialization. 
+/* --- H18R0 module initialization. 
 */
 void Module_Init(void)
 {	
@@ -57,17 +57,17 @@ void Module_Init(void)
 
 /*-----------------------------------------------------------*/
 
-/* --- H24R0 message processing task. 
+/* --- H18R0 message processing task. 
 */
 Module_Status Module_MessagingTask(uint16_t code, uint8_t port, uint8_t src, uint8_t dst)
 {
-	Module_Status result = H24R0_OK;
+	Module_Status result = H18R0_OK;
 	
 	switch (code)
 	{
 
 		default:
-			result = H24R0_ERR_UnknownMessage;
+			result = H18R0_ERR_UnknownMessage;
 			break;
 	}			
 
