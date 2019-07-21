@@ -83,6 +83,9 @@
 #define PWM2_PIN				GPIO_PIN_8
 #define PWM2_TIM_CH			TIM_CHANNEL_1		// TIM1_CH1
 
+
+#define NUM_MODULE_PARAMS		1
+						
 /* Module-specific Macros */
 
 
