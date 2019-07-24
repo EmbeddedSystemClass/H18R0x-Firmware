@@ -13,6 +13,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "BOS.h"
+#include "H18R0_MemoryMap.h"
 #include "H18R0_uart.h"	
 #include "H18R0_gpio.h"	
 #include "H18R0_dma.h"			
